@@ -1,6 +1,6 @@
 {
   "name": "bit-loader-text",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "bit-loader plugin for Text content",
   "main": "index.js",
   "scripts": {
