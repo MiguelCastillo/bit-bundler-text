@@ -1,7 +1,7 @@
 var PluginBuilder = require("bit-plugin-builder");
 
 var defaults = {
-  dependency: function textDependency(meta) {
+  precompile: function textDependency(meta) {
     return {
       source: "module.exports = " + JSON.stringify(meta.source) + ";"
     };
