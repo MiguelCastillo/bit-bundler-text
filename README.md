@@ -19,7 +19,9 @@ var textPlugin = require("bit-loader-text");
 var bitbundler = new Bitbundler({
   loader: {
     plugins: [
-      textPlugin()
+      textPlugin({
+        extensions: ["txt", "html"]
+      })
     ]
   }
 });
