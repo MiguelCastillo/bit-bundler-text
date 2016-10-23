@@ -1,17 +1,30 @@
 # bit-loader-text
-> bit-loader plugin for Text content
+> bit-loader plugin for processing Plain Text files
 
-The output of this plugin factory is a configuration Object that can be used as a [bit-loader](https://github.com/MiguelCastillo/bit-loader) plugin.
 
-### Example
+## Example
 
-#### Simple plugin configuration
+### install
 
-``` javascript
-  var textPlugin = require("bit-loader-text");
-  var pluginConfig = textPlugin();
+```
+$ npm install bit-loader-text --save
 ```
 
-### License
+### Simple plugin configuration
+
+``` javascript
+var Bitbundler = require("bit-bundler");
+var textPlugin = require("bit-loader-text");
+
+var bitbundler = new Bitbundler({
+  loader: {
+    plugins: [
+      textPlugin()
+    ]
+  }
+});
+```
+
+## License
 
 Licensed under MIT
