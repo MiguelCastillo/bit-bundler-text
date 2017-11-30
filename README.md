@@ -1,4 +1,6 @@
 # bit-loader-text
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/MiguelCastillo/bit-loader-text.svg)](https://greenkeeper.io/)
 > bit-loader plugin for processing Plain Text files
 
 
