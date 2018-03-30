@@ -1,5 +1,5 @@
 {
-  "name": "bit-loader-text",
+  "name": "@bit/loader-text",
   "version": "1.2.0",
   "description": "bit-loader plugin for Text content",
   "main": "index.js",
