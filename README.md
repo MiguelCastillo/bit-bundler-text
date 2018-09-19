@@ -9,14 +9,14 @@
 ### install
 
 ```
-$ npm install bit-loader-text --save
+$ npm install @bit/loader-text --save
 ```
 
 ### Simple plugin configuration
 
 ``` javascript
-var Bitbundler = require("bit-bundler");
-var textPlugin = require("bit-loader-text");
+var Bitbundler = require("@bit/bundler");
+var textPlugin = require("@bit/loader-text");
 
 var bitbundler = new Bitbundler({
   loader: {
